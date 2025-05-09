@@ -22,7 +22,7 @@ Flask/
 
 - model/ # Folder containing the trained machine learning model
 
-  -breast_cancer_model.pkl # Saved ML model
+  - breast_cancer_model.pkl # Saved ML model
 
 - requirements.txt # Python dependencies
 
