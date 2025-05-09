@@ -23,43 +23,25 @@ Flask/
 │ └── breast_cancer_model.pkl # Saved ML model
 └── requirements.txt # Python dependencies
 
-bash
-Copy
-Edit
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/wanglmnju/Flask.git
 cd Flask
-2. Create Virtual Environment (Optional but recommended)
-bash
-Copy
-Edit
+### 2. Create Virtual Environment (Optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy
-Edit
+### 3. Install Dependencies
 pip install -r requirements.txt
-4. Load the Model (if not done already)
+### 4. Load the Model 
 Make sure the machine learning model (breast_cancer_model.pkl) is placed in the model/ folder or any directory you prefer.
 
-5. Run the App
-bash
-Copy
-Edit
+### 5. Run the App
 python app.py
 Then visit http://127.0.0.1:5000/ in your browser to use the app.
 
 📦 Dependencies
 Flask
-
 scikit-learn (for machine learning)
-
 pandas
-
 numpy
