@@ -17,8 +17,6 @@ Flask/
 ├── run.py # Main Flask app to handle routes and model inference
 ├── templates/ # HTML templates for user input forms
 │ └── index.html # Homepage template for input form
-├── static/ # Static files (CSS, JS, images)
-│ └── styles.css # Custom styling for the app (if applicable)
 ├── model/ # Folder containing the trained machine learning model
 │ └── breast_cancer_model.pkl # Saved ML model
 └── requirements.txt # Python dependencies
