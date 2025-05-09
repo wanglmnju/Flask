@@ -14,7 +14,7 @@ This Flask app demonstrates how to deploy a machine learning model for predictin
 ## 🔧 Project Structure
 
 Flask/
-- app.py # Main Flask app to handle routes and model inference
+- run.py # Main Flask app to handle routes and model inference
 
 - templates/ # HTML templates for user input forms
 
