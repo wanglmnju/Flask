@@ -14,21 +14,17 @@ This Flask app demonstrates how to deploy a machine learning model for predictin
 ## 🔧 Project Structure
 
 Flask/
-├── app.py # Main Flask app to handle routes and model inference
+- app.py # Main Flask app to handle routes and model inference
 
-├── templates/ # HTML templates for user input forms
+- templates/ # HTML templates for user input forms
 
-│ └── index.html # Homepage template for input form
+  - index.html # Homepage template for input form
 
-├── static/ # Static files (CSS, JS, images)
+- model/ # Folder containing the trained machine learning model
 
-│ └── styles.css # Custom styling for the app (if applicable)
+  -breast_cancer_model.pkl # Saved ML model
 
-├── model/ # Folder containing the trained machine learning model
-
-│ └── breast_cancer_model.pkl # Saved ML model
-
-└── requirements.txt # Python dependencies
+- requirements.txt # Python dependencies
 
 ## 🚀 Getting Started
 
